@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'poppins',sans-serif;
+}
+body{
+  background:url("./bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+/* header{
+  background: url("./bg.png")
+} */
+.container{
+  width: 60%;
+  margin: 0 20%;
+}
+.logo{
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: #026E78;
+}
+.contact{
+  font-size:1.5rem;
+  text-decoration: none;
+  color: white;
+}
+.nav-top{
+  margin: 20px 0;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav{
+  margin: 3% 0;
+}
+nav ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav li,nav a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+nav{
+  padding: 10px;
+}
+nav li{
+  background-color: #04929f;
+  margin: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.highlight-light{
+  background-color: white !important;
+  font-weight: 600;
+}
+.highlight{
+  color: #026E78;
+}
+.highlight-dark{
+  background-color: #04575e !important; 
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  opacity: 0.8;
+}
+main{
+  margin-top: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+main h1{
+  color: white;
+  background-color: #026E78;
+  padding: 3%;
+  margin-bottom: 2%;
+}
+.book{
+  background-color: white;
+  color: #04929f;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+.menu{
+  color: white;
+  background-color: #05a7b6;
+  padding: 2%;
+  margin-bottom: 2%;
+}
